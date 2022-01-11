@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maquetacion con css flex" />
+    <meta name="keywords" content="html, css, maquetacion, flex" />
+    <meta name="author" content="Carlos Jose Martinez Sanchez">
+    <title>maquetacionFLEX_Practica01c Carlos Jose Martinez</title>
+
+    <!-- Enlace al css -->
+    <link rel="stylesheet" href="./estilos/estilo.css" type="text/css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fuzzy+Bubbles:wght@700&family=Smooch&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Cabecera -->
+    <header>
+        <p id="titulo">Ejemplo de Maquetacion con FLEX</p>
+        <p id="nombre">By Carlos Jose Martinez Sanchez</p>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- Barra de navegacion -->
+        <nav>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Galeria</a></li>
+                <li><a href="">Productos</a></li>
+                <li><a href="">Clientes</a></li>
+                <li><a href="">Sobre Nosotros</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <section>
+            <img src="./img/caballo1.jpg" alt="caballo 1">
+            <p>Un caballo al parecer triste porque no le han dado de comer.</p>
+        </section>
+
+        <!-- Articulo del Main -->
+        <article id="caballo2">
+            <img src="./img/caballo2.jpg" alt="caballo 2">
+            <p>Un caballo Maravilloso.</p>
+        </article>
+
+        <!-- Contenedor de los 3 articulos -->
+        <div class="articulos">
+
+            <article>
+                <img src="./img/caballo3.jpg" alt="caballo 3">
+                <p>Un caballo bajo un filtro de blanco y negro.</p>
+            </article>
+
+            <article>
+                <img src="./img/caballo4.jpg" alt="caballo 4">
+                <p>Una pintura en la que aparecen 2 caballos.</p>
+            </article>
+
+            <article>
+                <img src="./img/caballo5.jpg" alt="caballo 5">
+                <p>Una pintura en la que aparece un caballo alzandose.</p>
+            </article>
+        </div>
+
+    </main>
+
+    <!-- Pie de pagina -->
+    <footer>
+        <address>
+            <p>Calle Almeria</p>
+            <p>Almeria</p>
+        </address>
+        <p id="copy">&copy; Todos los derechos reservados</p>
+        <img src="img/twitter.jpg" alt="twitter">
+    </footer>
+</body>
+
+</html>

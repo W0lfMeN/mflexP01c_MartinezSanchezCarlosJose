@@ -1,0 +1,172 @@
+/* Reseteamos el documento y aplicamos el bo sizing border box */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* El body ocupará toda la web */
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/*CABECERA*/
+header{
+    border-bottom: 1px solid black;
+}
+
+header p{
+    text-align: center;
+}
+
+/* Id del titulo */
+#titulo{
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 200%;
+    color: rgb(56, 153, 27);
+}
+/* Id del contenido que hay debajo del titulo */
+#nombre{
+    font-family: 'Dancing Script', cursive;
+    font-size: 175%;
+    color: rgb(15, 194, 170);
+
+}
+/*----*/
+
+/* MAIN */
+main{
+    margin-top: 1%;
+    display: flex; /* Damos la propiedad flex a todo el contenedor */
+    flex-wrap: wrap; /* Le decimos que si no cabe en ancho lo ponga abajo */
+    justify-content: space-between; /* el nav a la izquierda */
+}
+
+/*Nav*/
+nav{
+    margin-left: 2%;
+    width: 5%;
+}
+
+nav ul li{
+    font-family: 'Smooch', cursive;
+    list-style: none;
+    color: rgb(56, 153, 27);
+    
+    font-size: 175%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(56, 153, 27);
+}
+/*----*/
+
+/* Section del caballo 1 */
+section{
+    border: 1px solid black;
+    border-radius: 1%;
+    height: 200%;
+    padding: 1%;
+    width: 45%;
+
+    text-align: center;
+}
+section img{
+    width: 80%;
+    height: 90%;
+    border-radius: 2%;
+}
+section p{
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: rgb(56, 153, 27);
+    margin-top: 1%;
+}
+/*----*/
+
+/* Article del contenedor principal */
+#caballo2{
+    border: 1px solid black;
+    border-radius: 1%;
+    padding: 1%;
+    width: 35%;
+
+    margin-right: 1.5%;
+
+    text-align: center;
+}
+
+#caballo2 img {
+    border-radius: 1%;
+    height: 95%;
+    width: 90%;
+}
+#caballo2 p{
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: rgb(56, 153, 27);
+    margin-top: 1%;
+}
+/*----*/
+
+/* Contenedor del resto de articulos */
+.articulos{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-left: 12.75%;
+    margin-right: 1.5%;
+}
+/* Etiqueta article */
+article{
+    border: 1px solid black;
+    border-radius: 1%;
+    padding: 1%;
+    width: 30%;
+
+    text-align: center;
+}
+
+article img {
+    border-radius: 1%;
+    height: 90%;
+    width: 100%;
+}
+article p{
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: rgb(56, 153, 27);
+    margin-top: 1%;
+}
+/*----*/
+
+/* FIN DEL MAIN */
+
+/*Footer*/
+footer{
+    display: flex;
+    align-items: center; /* Propiedad que tiene flex para alinear al centro */
+    justify-content: space-between;
+
+    margin-top: 1%;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    border-top: 1px solid black;
+
+    color: rgb(56, 153, 27);
+    font-family: 'Fuzzy Bubbles', cursive;
+
+}
+footer address{
+    margin-left: 2%;
+}
+#copy{
+    color: rgb(0, 110, 173);
+}
+footer img{
+    width: 3%;
+    margin-right: 5%;
+}
+/*----*/
