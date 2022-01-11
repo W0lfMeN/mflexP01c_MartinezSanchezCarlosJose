@@ -14,7 +14,7 @@ La aplicación contiene lo siguiente
     - Enlace a redes sociales
 
 ### Despliegue
-Para ello hay que descargar el repositorio y abrir el siguiente archivo: maquetacionFLEX_Practica01c%20.html
+Para ello hay que descargar el repositorio y abrir el siguiente archivo: maquetacionFLEX_Practica01c.html
 
 ### Construido con
 La interfaz web se ha construido usando FLEX
